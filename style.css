@@ -69,3 +69,11 @@ span{
     transition: width 1s ease-in-out;
     border-radius: 5px;
 }
+
+/* Script styling */
+
+.expired{
+    font-size: 2rem;
+    color: red;
+    font-weight: bold;
+}
