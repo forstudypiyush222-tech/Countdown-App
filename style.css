@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body{
+    background-color: beige;
+    color: rgb(7, 13, 13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    max-width: 650px;
+    margin: 0 auto;
+    background-color:  rgb(17, 233, 233);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+h2{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+#countdown{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding-bottom: 1.1rem;
+}
+#countdown div{
+    text-align: center;
+    padding: 30px;
+    background: #dad7d7;
+    border-radius: 5px;
+    
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+span{
+    font-size: xx-large;
+}
+
+.progress-container{
+    background: white;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+#progress-bar{
+    background: rgb(146, 227, 25);
+    width: 0%;
+    height: 100%;
+    transition: width 1s ease-in-out;
+    border-radius: 5px;
+}
